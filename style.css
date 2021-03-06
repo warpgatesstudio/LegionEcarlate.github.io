@@ -137,11 +137,13 @@ html, body {
     text-align: center
 }
 .background-img4 {
-    background-image: url("Test4img.jpg");
+    background-image: url("Test4img.png");
     flex-direction: column;
-    justify-content: center;
+    background-position: 60%;
+    background-size: cover;
+    flex-direction: column;
+    justify-content:center;
     align-items: center;
-    background-size: cover
     overflow: scroll;
 }
 .L1{
