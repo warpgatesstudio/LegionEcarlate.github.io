@@ -137,7 +137,7 @@ html, body {
     text-align: center
 }
 .background-img4 {
-    background-image: url("Test4img.png");
+    background-image: url("Test4img.jpg");
     flex-direction: column;
     background-position: 60%;
     background-size: cover;
