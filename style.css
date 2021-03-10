@@ -44,6 +44,15 @@ html, body {
     height: 70%;
     
 }
+.background-img5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("test5img.jpeg");  
+    background-size: cover;
+    height: 70%;
+}
 .background-img2 {
     background-image: url("test2img.jpg");
     display: flex;
@@ -247,4 +256,18 @@ button {
   /* Cette marge supplémentaire représente grosso modo le même espace que celui
      entre les étiquettes et les champs texte */
   margin-left: .5em;
+}
+.attention{
+    text-align: center;
+    font-size: 80xp;
+    color: red;
+
+
+}
+.attention1{
+    text-align: center;
+    font-size: 80xp;
+    color: white;
+    
+
 }
