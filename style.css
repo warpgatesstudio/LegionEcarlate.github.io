@@ -22,7 +22,7 @@ html, body {
     padding: 0;
 }
 .background-img-banner{
-   background-image: url("bannerimg.jpg");
+   background-image: url("image/bannerimg.jpg");
    background-size: cover;
     background-position: 95%;
    display: flex;
@@ -39,7 +39,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("test1img.jpg");  
+    background-image: url("image/test1img.jpg");  
     background-size: cover;
     height: 70%;
     
@@ -49,12 +49,12 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("test5img.jpeg");  
+    background-image: url("image/test5img.jpeg");  
     background-size: cover;
     height: 70%;
 }
 .background-img2 {
-    background-image: url("test2img.jpg");
+    background-image: url("image/test2img.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +62,7 @@ html, body {
     height: 70%;
     
 }.background-img3 {
-    background-image: url("img3.jpg");  
+    background-image: url("image/img3.jpg");  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -146,7 +146,7 @@ html, body {
     text-align: center
 }
 .background-img4 {
-    background-image: url("Test4img.jpg");
+    background-image: url("image/Test4img.jpg");
     flex-direction: column;
     background-position: 60%;
     background-size: cover;
@@ -270,4 +270,18 @@ button {
     color: white;
     
 
+}
+.cardGal{
+   margin: 20px;
+   size: 300px;
+}
+.galimg{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Pgal{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    max-height: 100%;
 }
